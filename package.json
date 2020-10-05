@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "The path to NGInx main folder: /usr/share/nginx/html",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "Tien": "echo Tien"
+    "Tien" : "Tien"
   },
   "repository": {
     "type": "git",
@@ -18,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/shingato/personal-budget/issues"
   },
-  "homepage": "https://github.com/shingato/personal-budget#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/shingato/personal-budget#readme"
 }
